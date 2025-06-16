@@ -7,22 +7,22 @@ const Footer = () => {
     {
       name: 'Facebook',
       icon: <FaFacebook className="w-5 h-5" />,
-      href: '#'
+      href: 'https://facebook.com/sashbackconstruction'
     },
     {
       name: 'Instagram',
       icon: <FaInstagram className="w-5 h-5" />,
-      href: '#'
+      href: 'https://instagram.com/sashbackconstruction'
     },
     {
       name: 'LinkedIn',
       icon: <FaLinkedin className="w-5 h-5" />,
-      href: '#'
+      href: 'https://linkedin.com/company/sashbackconstruction'
     },
     {
       name: 'Twitter',
       icon: <FaTwitter className="w-5 h-5" />,
-      href: '#'
+      href: 'https://twitter.com/sashbackconstruction'
     }
   ];
 
@@ -54,24 +54,24 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 mb-6 md:mb-0"
           >
-            <a 
-              href="#" 
-              className="text-gray-600 hover:text-green-600 transition-colors duration-300"
+            <button 
+              onClick={() => console.log('Privacy Policy clicked')}
+              className="text-gray-600 hover:text-green-600 transition-colors duration-300 bg-transparent border-none cursor-pointer"
             >
               Privacy Policy
-            </a>
-            <a 
-              href="#" 
-              className="text-gray-600 hover:text-green-600 transition-colors duration-300"
+            </button>
+            <button 
+              onClick={() => console.log('Terms of Service clicked')}
+              className="text-gray-600 hover:text-green-600 transition-colors duration-300 bg-transparent border-none cursor-pointer"
             >
               Terms of Service
-            </a>
-            <a 
-              href="#" 
-              className="text-gray-600 hover:text-green-600 transition-colors duration-300"
+            </button>
+            <button 
+              onClick={() => console.log('License Info clicked')}
+              className="text-gray-600 hover:text-green-600 transition-colors duration-300 bg-transparent border-none cursor-pointer"
             >
               License Info
-            </a>
+            </button>
           </motion.div>
 
           {/* Social Media Links */}
