@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sashback-construction/static/css/main.84f515e8.css",
+    "main.js": "/sashback-construction/static/js/main.e23f061f.js",
+    "index.html": "/sashback-construction/index.html",
+    "main.84f515e8.css.map": "/sashback-construction/static/css/main.84f515e8.css.map",
+    "main.e23f061f.js.map": "/sashback-construction/static/js/main.e23f061f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84f515e8.css",
+    "static/js/main.e23f061f.js"
+  ]
+}
